@@ -3,5 +3,5 @@
 /// <summary>
 /// Ping request
 /// </summary>
-/// <param name="message">user message</param>
-public record PingRequest(string message);
+/// <param name="Message">user message</param>
+public record PingRequest(string Message);

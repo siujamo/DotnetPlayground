@@ -16,10 +16,10 @@ public class PingController(ILogger<PingController> logger) : Controller
     [HttpPost("hello")]
     public IActionResult UpdateValue([FromBody] PingRequest request)
     {
-        logger.LogInformation("User said \"{}\"", request.message);
+        logger.LogInformation("User said \"{}\"", request.Message);
         return Ok(new
         {
-            request.message,
+            request.Message,
             timestamp = DateTime.Now
         });
     }
