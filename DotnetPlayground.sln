@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetPlayground", "DotnetPlayground\DotnetPlayground.csproj", "{13B35DE2-3F85-435F-9CC3-BE0E3F396C23}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPlayground", "WebPlayground\WebPlayground.csproj", "{ECB8AC90-8C77-4836-A7D5-1B237582B418}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{13B35DE2-3F85-435F-9CC3-BE0E3F396C23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13B35DE2-3F85-435F-9CC3-BE0E3F396C23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13B35DE2-3F85-435F-9CC3-BE0E3F396C23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECB8AC90-8C77-4836-A7D5-1B237582B418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECB8AC90-8C77-4836-A7D5-1B237582B418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECB8AC90-8C77-4836-A7D5-1B237582B418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECB8AC90-8C77-4836-A7D5-1B237582B418}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

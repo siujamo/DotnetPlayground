@@ -2,12 +2,14 @@
 
 using DotnetPlayground.Util;
 
+var composer = new TableNameComposer();
+
 var sqls = new List<string>();
-for (var year = 2010; year <= 2030; year++)
+foreach (var year in Enumerable.Range(2010, 30))
 {
-    for (var month = 1; month <= 12; month++)
+    foreach (var month in Enumerable.Range(1, 12))
     {
-        var sql = $"select * from {TableNameComposer.Compose("gec_project_cert_info", year, month)}";
+        var sql = $"select * from {composer.Compose("gec_project_cert_info", year, month)}";
         sqls.Add(sql);
     }
 }

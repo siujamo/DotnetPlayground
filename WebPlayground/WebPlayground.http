@@ -1,0 +1,6 @@
+@WebPlayground_HostAddress = http://localhost:5104
+
+### Ping
+GET {{WebPlayground_HostAddress}}/api/Ping
+
+###
